@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+
+h6{
+    font-size: 12px;
+    color: rgba(18, 1, 20, 0.329);
+}
+h2{
+    font-size: 30px;
+    color: rgba(120,2,130,1);
+}
+
+h4{
+    color: rgba(120,2,130,1);
+}
+p{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.high{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    h6{
+        margin: 5px;
+    }
+    h2{
+        margin: 5px;
+    }
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+nav{
+    padding-top: 15px;
+    background: rgb(120,2,130);
+    background: linear-gradient(90deg, rgba(120,2,130,1) 0%, rgba(255,0,155,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    font-size: 15px;
+    span{
+        color: aliceblue;
+        font-size: 23px;
+
+        span{
+            font-weight: 900;
+        }
+    }
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    li{
+        margin: 0 25px;
+        list-style: none;
+        font-weight: 600;
+        a{
+            color:rgb(230, 210, 210,0.6);
+            text-decoration: none;
+        }
+        a:hover{
+            color:white;
+        }
+
+        li:last-child{
+            margin-right: 0px;
+        }
+    
+    }
+   
+    .download{
+        border: 2px, solid, white;
+        padding: 7px 20px;
+        color: white;
+        border-radius: 5px;
+    }
+    
+}
+
+li #home{
+    color: white;
+    display: block;
+    border: 2px,solid, aliceblue;
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 5px;
+}
+
+.main{
+    background: linear-gradient(90deg, rgba(120,2,130,1) 0%, rgba(255,0,155,1) 100%);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 633px;
+    
+
+    p{
+        color: rgba(241, 227, 227, 0.8);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 20px;
+        width: 900px;
+
+        .container{
+            height: 405px;
+            overflow: hidden;
+            img{
+                height: auto;
+            }
+        }
+
+        
+    }
+}
+
+
+.middle{
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 350px;
+        border: 3px, solid, rgba(120,2,130,1);
+        border-bottom: 0;
+        border-top: 0;
+        border-right: 0;
+        color: rgba(18, 1, 20, 0.329);
+
+        h5{
+            font-size: 20px;
+            margin: 15px 0;
+            color: rgba(120,2,130,0.7);
+        }
+
+        img{
+            padding-top: 15px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        div{
+            padding-left: 20px
+        }
+    }
+
+}
+
+.big-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing{
+    .big-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h6{
+        margin-bottom: 10px;
+        color: rgba(167, 21, 94, 0.445);
+    }
+    h2{
+        margin-top: 5px;
+        font-size: 45px;
+        span{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+    .card{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 300px;
+        border: 2px,solid,rgba(128, 128, 128, 0.103);
+        border-radius: 5px;
+        margin-right: 30px;
+        padding-bottom: 15px;
+        
+        ul{
+            padding-left: 0;
+        }
+       
+        li{
+            list-style: none;
+            text-align: center;
+            margin: 20px 0;
+            color: rgba(18, 1, 20, 0.329);
+        }
+
+        button{
+            width: 270px;
+            font-size: 20px;
+            color: white;
+            padding: 15px 50px;
+            background-color: rgba(238, 29, 109, 0.973);
+            border: 0px;
+            border-radius: 4px;
+            box-shadow: 0px 2px 15px #888888;
+        }
+    }
+    .card:nth-child(2){
+        border: 2px, solid, rgba(120,2,130,1) ;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 0px;
+        box-shadow: 2px 2px 120px #88888833;
+        box-shadow: -2px 0px 120px #88888833;
+    }
+}
+
+.faq{
+    padding-bottom: 50px;
+    .big-box{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 500px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+    p{
+        color:  rgba(18, 1, 20, 0.329);
+    }
+}
+
+
+footer {
+    .gradient{
+        height: 6px;
+        background: linear-gradient(90deg, rgba(120,2,130,1) 0%, rgba(255,0,155,1) 100%);
+    }
+
+    div div:nth-child(1){
+        span{
+            vertical-align:middle;
+        }
+        img{
+            vertical-align:middle;
+        }
+    }
+    
+    div div:nth-child(2){
+        div{
+            display:inline-flex;
+            margin-top: 20px;
+            margin-right: 20px;
+            span{
+                padding-left: 10px;
+                color: rgba(255,0,155,1);
+            }
+        }
+    }
+}
+
+.soicals{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.info{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cp{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 300px;
+    line-height: 40px;
+    background-color: white;
+    span a {
+        text-decoration: none;
+        color: rgba(255,0,155,1);
+    }
+}
